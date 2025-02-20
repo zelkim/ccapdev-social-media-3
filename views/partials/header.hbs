@@ -1,0 +1,56 @@
+ <head>
+  <style>
+    .header, .page-body {
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .header {
+      background: BlanchedAlmond;
+      border-bottom: 1px solid black;
+      margin-bottom: 8px;
+    }
+    
+    .header-logo {
+      width: 25%;
+      text-align: center;
+    }
+    
+    .header-logo > img {
+      width: 50px;
+    }
+    
+    .header-search {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .header-profile {
+      width: 25%;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+    }
+
+  </style>
+</head>
+<div class="header">
+    <div class="header-logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sun_-_Lorc_-_game-icons.svg/512px-Sun_-_Lorc_-_game-icons.svg.png?20240117113549" />
+      <br/>
+      <strong>SocMed</strong>
+    </div>
+    
+    <div class="header-search">
+      <form>
+        <input type="text" />
+        <input type="submit" value="Search" />
+      </form>
+    </div>
+    
+    <div class="header-profile">
+      <strong>Profile | Logout</strong>
+    </div>
+  </div>
