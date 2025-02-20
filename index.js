@@ -57,7 +57,7 @@ app.get('/', async (req, res) =>
 );
 
 app.get('/post', async (req, res) =>
-  res.render('post', {
+  res.render('postpage', {
     layout: 'main',
     title: 'Stickers page',
     posts: posts,
